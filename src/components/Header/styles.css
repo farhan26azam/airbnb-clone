@@ -1,0 +1,77 @@
+.navbar {
+  background-color: var(--white);
+  border: 1px solid var(--neutral-03, #ddd);
+  top: 0;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  padding: 21px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  width: 102px;
+  height: 32px;
+  margin-left: 59px;
+}
+
+.dropdown {
+  justify-content: space-between;
+  display: inline-flex;
+  padding: 8px 8px 8px 28px;
+  align-items: center;
+  border: 1px solid var(--border);
+  border-radius: 500px;
+  background: var(--shade-01, #fff);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.04);
+  display: flex;
+  align-items: center;
+}
+
+.options-container {
+  display: flex;
+  align-items: center;
+  height: 24px;
+}
+.option {
+  font-size: 13px;
+  line-height: normal;
+}
+.search-logo {
+  width: 32px;
+  height: 32px;
+  margin-left: 24px;
+}
+.user-container {
+  margin-right: 61px;
+  display: flex;
+  align-items: center;
+}
+
+.become-a-host {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 590;
+  line-height: normal;
+}
+.user-menu {
+  width: 71px;
+  height: 38px;
+  display: flex;
+  margin-left: 24px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 29px;
+  border: 1px solid var(--border);
+  background: var(--white);
+}
+
+.user-icon {
+  width: 32px;
+  height: 34px;
+}
