@@ -1,0 +1,11 @@
+.main-container{
+    margin-top: 94px;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    align-items: flex-end;
+    height: 98px;
+    background-color: var(--white);
+    border: 1px solid var(--neutral-03, #ddd);
+    padding: 0px 80px 0px 80px
+}

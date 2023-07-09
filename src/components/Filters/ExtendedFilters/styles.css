@@ -1,0 +1,18 @@
+.button-container{
+    width: 115px;
+    height: 78px;
+    background-color: var(--white);
+    z-index: 1000;
+    position: absolute;
+    float: right;
+    right: 60px;
+}
+
+.button{
+    width: 90px;
+    height: 48px;
+    background-color: var(--white);
+    border: 1px solid var(--neutral-03, #ddd);
+    z-index: 1000;
+    position: absolute;
+}
